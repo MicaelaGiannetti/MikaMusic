@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B950C2D2B037DF40043A0B3 /* AcademyMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C2C2B037DF40043A0B3 /* AcademyMusicApp.swift */; };
+		3B950C2F2B037DF40043A0B3 /* AscoltaOra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C2E2B037DF40043A0B3 /* AscoltaOra.swift */; };
+		3B950C312B037DF50043A0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B950C302B037DF50043A0B3 /* Assets.xcassets */; };
+		3B950C342B037DF50043A0B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B950C332B037DF50043A0B3 /* Preview Assets.xcassets */; };
+		3B950C3F2B0399D30043A0B3 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C3E2B0399D30043A0B3 /* CardModel.swift */; };
+		3B950C442B04E0600043A0B3 /* FilmCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C432B04E0600043A0B3 /* FilmCards.swift */; };
+		3B950C482B063C5B0043A0B3 /* RockCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C472B063C5B0043A0B3 /* RockCards.swift */; };
+		3B950C4B2B08DF790043A0B3 /* EmotionCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C4A2B08DF790043A0B3 /* EmotionCards.swift */; };
+		3B950C4D2B08E39A0043A0B3 /* CardModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C4C2B08E39A0043A0B3 /* CardModel2.swift */; };
+		3B950C4F2B08FB970043A0B3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C4E2B08FB970043A0B3 /* DetailView.swift */; };
+		3B950C512B08FC210043A0B3 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C502B08FC210043A0B3 /* SongModel.swift */; };
+		3B950C532B0904B70043A0B3 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B950C522B0904B70043A0B3 /* SongList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B950C292B037DF40043A0B3 /* AcademyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcademyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B950C2C2B037DF40043A0B3 /* AcademyMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyMusicApp.swift; sourceTree = "<group>"; };
+		3B950C2E2B037DF40043A0B3 /* AscoltaOra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscoltaOra.swift; sourceTree = "<group>"; };
+		3B950C302B037DF50043A0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B950C332B037DF50043A0B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B950C3E2B0399D30043A0B3 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		3B950C432B04E0600043A0B3 /* FilmCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCards.swift; sourceTree = "<group>"; };
+		3B950C472B063C5B0043A0B3 /* RockCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockCards.swift; sourceTree = "<group>"; };
+		3B950C4A2B08DF790043A0B3 /* EmotionCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionCards.swift; sourceTree = "<group>"; };
+		3B950C4C2B08E39A0043A0B3 /* CardModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel2.swift; sourceTree = "<group>"; };
+		3B950C4E2B08FB970043A0B3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3B950C502B08FC210043A0B3 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		3B950C522B0904B70043A0B3 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B950C262B037DF40043A0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B950C202B037DF40043A0B3 = {
+			isa = PBXGroup;
+			children = (
+				3B950C2B2B037DF40043A0B3 /* AcademyMusic */,
+				3B950C2A2B037DF40043A0B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B950C2A2B037DF40043A0B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B950C292B037DF40043A0B3 /* AcademyMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B950C2B2B037DF40043A0B3 /* AcademyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				3B950C2C2B037DF40043A0B3 /* AcademyMusicApp.swift */,
+				3B950C2E2B037DF40043A0B3 /* AscoltaOra.swift */,
+				3B950C4E2B08FB970043A0B3 /* DetailView.swift */,
+				3B950C402B039AAC0043A0B3 /* ModelView */,
+				3B950C492B08DF410043A0B3 /* Arrays */,
+				3B950C302B037DF50043A0B3 /* Assets.xcassets */,
+				3B950C322B037DF50043A0B3 /* Preview Content */,
+			);
+			path = AcademyMusic;
+			sourceTree = "<group>";
+		};
+		3B950C322B037DF50043A0B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B950C332B037DF50043A0B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B950C402B039AAC0043A0B3 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				3B950C3E2B0399D30043A0B3 /* CardModel.swift */,
+				3B950C4C2B08E39A0043A0B3 /* CardModel2.swift */,
+				3B950C502B08FC210043A0B3 /* SongModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		3B950C492B08DF410043A0B3 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				3B950C432B04E0600043A0B3 /* FilmCards.swift */,
+				3B950C472B063C5B0043A0B3 /* RockCards.swift */,
+				3B950C4A2B08DF790043A0B3 /* EmotionCards.swift */,
+				3B950C522B0904B70043A0B3 /* SongList.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B950C282B037DF40043A0B3 /* AcademyMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B950C372B037DF50043A0B3 /* Build configuration list for PBXNativeTarget "AcademyMusic" */;
+			buildPhases = (
+				3B950C252B037DF40043A0B3 /* Sources */,
+				3B950C262B037DF40043A0B3 /* Frameworks */,
+				3B950C272B037DF40043A0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcademyMusic;
+			productName = AcademyMusic;
+			productReference = 3B950C292B037DF40043A0B3 /* AcademyMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B950C212B037DF40043A0B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3B950C282B037DF40043A0B3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3B950C242B037DF40043A0B3 /* Build configuration list for PBXProject "AcademyMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B950C202B037DF40043A0B3;
+			productRefGroup = 3B950C2A2B037DF40043A0B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B950C282B037DF40043A0B3 /* AcademyMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B950C272B037DF40043A0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B950C342B037DF50043A0B3 /* Preview Assets.xcassets in Resources */,
+				3B950C312B037DF50043A0B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B950C252B037DF40043A0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B950C532B0904B70043A0B3 /* SongList.swift in Sources */,
+				3B950C2F2B037DF40043A0B3 /* AscoltaOra.swift in Sources */,
+				3B950C4F2B08FB970043A0B3 /* DetailView.swift in Sources */,
+				3B950C482B063C5B0043A0B3 /* RockCards.swift in Sources */,
+				3B950C512B08FC210043A0B3 /* SongModel.swift in Sources */,
+				3B950C442B04E0600043A0B3 /* FilmCards.swift in Sources */,
+				3B950C2D2B037DF40043A0B3 /* AcademyMusicApp.swift in Sources */,
+				3B950C3F2B0399D30043A0B3 /* CardModel.swift in Sources */,
+				3B950C4B2B08DF790043A0B3 /* EmotionCards.swift in Sources */,
+				3B950C4D2B08E39A0043A0B3 /* CardModel2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B950C352B037DF50043A0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B950C362B037DF50043A0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B950C382B037DF50043A0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AcademyMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = BPZ6LR75N5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.micaelagiannetti.AcademyMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B950C392B037DF50043A0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AcademyMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = BPZ6LR75N5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.micaelagiannetti.AcademyMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B950C242B037DF40043A0B3 /* Build configuration list for PBXProject "AcademyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B950C352B037DF50043A0B3 /* Debug */,
+				3B950C362B037DF50043A0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B950C372B037DF50043A0B3 /* Build configuration list for PBXNativeTarget "AcademyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B950C382B037DF50043A0B3 /* Debug */,
+				3B950C392B037DF50043A0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B950C212B037DF40043A0B3 /* Project object */;
+}
