@@ -71,6 +71,8 @@ struct CardViewModel: View, Identifiable {
                 Text (card.subTitle)
                     .foregroundStyle(.gray)
             }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(Text("\(card.title)\(card.subTitle)"))
           .frame(width:170, height:230)
             
             

@@ -43,6 +43,7 @@ struct CardViewModel2: View, Identifiable {
                             .font(.caption)
                             .foregroundStyle(card2.logoColor)
                     }
+                    
                     .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 8))
                     Spacer()
                     //      .frame(height:50)
@@ -59,6 +60,7 @@ struct CardViewModel2: View, Identifiable {
                     }
                     
                 }
+                .accessibilityHidden(true)
                 .frame(width: 170, height: 170)
                 
                 
@@ -67,10 +69,11 @@ struct CardViewModel2: View, Identifiable {
             
             Text (card2.title)
                 .lineLimit(1)
-             //   .foregroundColor(.black)
             Text (card2.subTitle)
                 .foregroundStyle(.gray)
         }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(Text("\(card2.title) \(card2.subTitle) Playlist"))
         .frame(width:170, height:230)
         
         

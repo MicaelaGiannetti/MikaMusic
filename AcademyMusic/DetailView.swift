@@ -20,6 +20,7 @@ struct DetailView: View {
                         .frame(width:400, height: 400)
                         .clipped()
                         .ignoresSafeArea()
+                        .accessibilityHidden(true)
                     VStack {
 
                         Spacer()

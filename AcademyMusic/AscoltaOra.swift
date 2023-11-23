@@ -19,6 +19,7 @@ struct AscoltaOra: View {
                         .font (.title2)
                         .padding (.horizontal)
                         .bold()
+                        .accessibilityAddTraits(.isHeader)
                     ScrollView (.horizontal) {
                         
                         
@@ -28,6 +29,8 @@ struct AscoltaOra: View {
                                     card2
                                    
                                 }
+                                .accessibilityLabel(Text("Playlist"))
+                                .accessibilityHint(Text("Tap to get the songlist"))
                                 .foregroundColor(Color("LabelColor"))
                                 
                             //    if card2.title == "Party hard!"{
@@ -54,6 +57,7 @@ struct AscoltaOra: View {
                         .font (.title2)
                         .padding (.horizontal)
                         .bold()
+                        .accessibilityAddTraits(.isHeader)
                     ScrollView (.horizontal) {
                         
                         
@@ -80,6 +84,7 @@ struct AscoltaOra: View {
                         .font (.title2)
                         .padding (.horizontal)
                         .bold()
+                        .accessibilityAddTraits(.isHeader)
                     ScrollView (.horizontal) {
                         
                         

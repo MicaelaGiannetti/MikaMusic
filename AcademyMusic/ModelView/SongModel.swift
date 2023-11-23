@@ -39,6 +39,8 @@ struct songViewModel: View, Identifiable{
             Text (song.icon)
                 .bold()
         }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(Text("\(song.songTitle)  \(song.songSubTitle)"))
         .padding(.horizontal)
         .frame(height:50)
         
